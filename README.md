@@ -1,10 +1,5 @@
 # 🔍 Splunk SIEM Monitoring Project
 
-![SIEM](https://img.shields.io/badge/SIEM-Splunk-orange?style=for-the-badge&logo=splunk)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
-![Level](https://img.shields.io/badge/Level-Beginner-blue?style=for-the-badge)
-![Blue Team](https://img.shields.io/badge/Team-Blue%20Team-navy?style=for-the-badge)
-
 ## 📌 Project Overview
 
 Created a beginner SIEM monitoring project using **Splunk** to detect failed requests and suspicious IP activity through SPL queries, dashboards, and alerts.
@@ -99,28 +94,6 @@ index=security_logs status=404
 
 ---
 
-## 📊 Dashboard Screenshots
-
-### Main Monitoring Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### Failed Requests Over Time
-![Failed Requests](screenshots/failed_requests.png)
-
-### Top Suspicious IPs
-![Top IPs](screenshots/top_ips.png)
-
----
-
-## 🚨 Alerts Configured
-
-| Alert Name | Condition | Trigger |
-|-----------|-----------|---------|
-| High 404 Activity | 404 count > 50 in 5 min | Real-time |
-| Suspicious IP Detected | Single IP > 20 requests | Hourly |
-
----
-
 ## 💡 Key Learnings
 
 - How to ingest and parse logs in Splunk
@@ -134,30 +107,3 @@ index=security_logs status=404
 ## 🔗 Skills Demonstrated
 
 `Splunk` `SIEM` `SPL` `Log Analysis` `Threat Detection` `Dashboard Creation` `Alert Configuration` `Blue Team` `SOC Analyst`
-
----
-
-## 📈 Future Improvements
-
-- [ ] Add brute force detection queries
-- [ ] Ingest Windows Event Logs (failed logins - Event ID 4625)
-- [ ] Build correlation rules
-- [ ] Integrate with MITRE ATT&CK framework
-- [ ] Add malware traffic detection using Wireshark PCAPs
-
----
-
-## 👩‍💻 Author
-
-**[Tumhara Naam Yahan]**  
-Cybersecurity Enthusiast | SOC Analyst (Learning) | Blue Team  
-🔗 [LinkedIn Profile Link]  
-📧 [Email - Optional]
-
----
-
-## 📚 References
-
-- [Splunk Documentation](https://docs.splunk.com)
-- [TryHackMe - Splunk Room](https://tryhackme.com)
-- [Splunk Free Training](https://education.splunk.com)
